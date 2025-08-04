@@ -1,4 +1,4 @@
-# Online Multiplayer Shooter Duel
+# Online Shooter Duel
 
 A multiplayer terminal-based shooter game for two players, where one acts as server (host) and the other as client.
 
@@ -19,8 +19,20 @@ A multiplayer terminal-based shooter game for two players, where one acts as ser
    go mod tidy
    ```
 4. Compile the game:
+
    ```bash
    go build -o onlinegame
+   ```
+
+   Or simply:
+
+   ```bash
+   go build
+   ```
+
+5. (Optional) Run tests:
+   ```bash
+   go test ./...
    ```
 
 ## How to Play
@@ -33,9 +45,16 @@ A multiplayer terminal-based shooter game for two players, where one acts as ser
    ./onlinegame
    ```
 
+   Or if you used `go build` without specifying output name:
+
+   ```bash
+   ./online
+   ```
+
 2. In the main menu:
    - **Create Room (Host)**: To create a room as server
    - **Join Room (Client)**: To join a room as client
+   - **Exit Game**: To quit the application
 
 ### As Host (Server)
 
@@ -53,9 +72,23 @@ A multiplayer terminal-based shooter game for two players, where one acts as ser
 
 ### Controls
 
+#### In-Game Controls:
+
 - **A**: Move left
 - **D**: Move right
 - **J**: Shoot
+- **Q**: Quit game
+- **ESC**: Quit game
+
+#### Menu Controls:
+
+- **Arrow Up/Down**: Navigate menu options
+- **Enter**: Select option
+- **ESC**: Exit game
+
+#### Game Over Screen:
+
+- **R**: Restart game
 - **Q**: Quit game
 - **ESC**: Quit game
 
