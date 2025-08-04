@@ -21,7 +21,7 @@ A multiplayer terminal-based shooter game for two players, where one acts as ser
 4. Compile the game:
 
    ```bash
-   go build -o onlinegame
+   go build -o online-shooter-duel
    ```
 
    Or simply:
@@ -42,13 +42,13 @@ A multiplayer terminal-based shooter game for two players, where one acts as ser
 1. Run the game:
 
    ```bash
-   ./onlinegame
+   ./online-shooter-duel
    ```
 
    Or if you used `go build` without specifying output name:
 
    ```bash
-   ./online
+   ./online-shooter-duel
    ```
 
 2. In the main menu:
