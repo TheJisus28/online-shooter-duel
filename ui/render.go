@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"online/game"
+	"shooter-duel/game"
 
 	"github.com/nsf/termbox-go"
 )

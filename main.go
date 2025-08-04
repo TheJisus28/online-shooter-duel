@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"online/core"
-	"online/game"
-	"online/network"
-	"online/ui"
+	"shooter-duel/core"
+	"shooter-duel/game"
+	"shooter-duel/network"
+	"shooter-duel/ui"
 
 	"github.com/nsf/termbox-go"
 )

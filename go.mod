@@ -1,4 +1,4 @@
-module online
+module shooter-duel
 
 go 1.24.1
 

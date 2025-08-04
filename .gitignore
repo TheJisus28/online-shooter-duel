@@ -20,6 +20,8 @@ go.work
 # Build output
 online
 online-shooter-duel
+shooter-duel
+duel
 
 # IDE files
 .vscode/

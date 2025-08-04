@@ -1,7 +1,7 @@
 package ui
 
 import (
-	"online/game"
+	"shooter-duel/game"
 	"testing"
 )
 

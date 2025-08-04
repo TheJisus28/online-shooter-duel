@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"online/game"
+	"shooter-duel/game"
 )
 
 const (

@@ -3,7 +3,7 @@ package network
 import (
 	"encoding/json"
 	"net"
-	"online/game"
+	"shooter-duel/game"
 	"strings"
 	"testing"
 )
