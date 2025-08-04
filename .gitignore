@@ -18,8 +18,8 @@
 go.work
 
 # Build output
-onlinegame
 online
+online-shooter-duel
 
 # IDE files
 .vscode/
